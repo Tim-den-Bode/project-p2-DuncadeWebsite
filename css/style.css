@@ -6,9 +6,6 @@ body, html {
   
   header {
     background-image: url('../IMG/background.jpg') ; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
   }
   
@@ -51,20 +48,24 @@ body, html {
   
   .buttons {
     margin-top: 20px;
+    display: flex;
   }
   
   .image-button {
-    display: inline-block;
+    display: flex;
     background-image: url('/IMG/button.png');
     width: 200px;
     height: 200px;
     background-size: 100% 100%;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
   body {
     background-image: url('../IMG/background.jpg') ; 
     background-size: cover;
+    background-position: center;
   }
 
   .banner {
@@ -72,4 +73,5 @@ body, html {
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
   }
