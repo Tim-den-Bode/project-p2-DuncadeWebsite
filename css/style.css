@@ -106,7 +106,7 @@ body {
   background-color: #000000;
   color: #ffffff;
   cursor: pointer;
-  padding: 18px;
+  padding: 20px;
   width: 100%;
   text-align: left;
   border: none;
@@ -151,3 +151,6 @@ body {
   }
 }
 
+.body {
+  padding: 5px;
+}
